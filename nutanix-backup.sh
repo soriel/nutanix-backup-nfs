@@ -2,8 +2,8 @@
 date=$(date  +%Y-%m-%d)
 ipnutanix=$'192.168.26.7'
 mailto=$'team@integrasky.ru'
-namenutanix=$'Nutanx stek'
-for vm in 'mikrotik.st.local' 
+namenutanix=$'Nutanx'
+for vm in 'vm.local' 
 do
 echo "Start backup" >> /var/log/nutanix-backup-"$vm"-"$date".log
 date >> /var/log/nutanix-backup-"$vm"-"$date".log
