@@ -1,7 +1,7 @@
 #!/bin/bash
 date=$(date  +%Y-%m-%d)
 ipnutanix=$'192.168.26.7'
-mailto=$'team@integrasky.ru'
+mailto=$'team@example.com'
 namenutanix=$'Nutanx'
 for vm in 'vm.local' 
 do
